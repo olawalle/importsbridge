@@ -1,0 +1,55 @@
+img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.wrap{
+    overflow: hidden;
+    height: 200px;
+    
+}
+.extra{
+    position: relative;
+    top: 120px;
+    z-index: 3;
+    display: none;
+    background-color: rgb(66, 107, 155);
+    height: 120px;
+    text-align: center;
+    margin-top: -50px;
+   
+}
+.wrap:hover .extra{
+    position: relative;
+    top: 5px;
+    display: block;
+    animation-name: jump;
+    animation-duration: 1s
+    
+}
+.wrap:hover h6{
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 0.4s
+    
+}
+
+@keyframes jump{
+    0%{
+        top: 120px;
+    }
+    70%{
+        top:0px
+    }
+    100%{
+        top: 5px;
+    }
+}
+@keyframes fade{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

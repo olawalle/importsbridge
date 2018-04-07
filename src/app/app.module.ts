@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SquareComponent } from './square/square.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SquareComponent
   ],
   imports: [
     BrowserModule

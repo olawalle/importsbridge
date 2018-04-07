@@ -1,0 +1,47 @@
+
+.scroll img{
+    width: 100%;
+    margin-top: -200px;
+    margin-left: -15px
+}
+/* .top-ad{
+    background-color: black
+} */
+.top-ad img{
+    margin-left: -10%;
+    width: 90%;
+}
+.featured{
+   margin-top: 20px;
+   padding-top: 15px;
+   margin-left: -20px;
+    border-top: 1px solid #e9e8e8;
+}
+h5{
+    margin-bottom: 12px;
+    color: rgb(28, 11, 90)
+}
+span h6{
+    font-size: 13px;
+    float: right;
+}
+square{
+    width: 100%;
+}
+.single{
+    border-right: 1px solid #e9e8e8;
+}
+@media(max-width:1300px){
+    .scroll img{
+        width: 100%;
+        margin-top: -80px;
+        margin-left: -15px
+    }
+}
+@media(max-width:1200px){
+    .scroll img{
+        width: 111%;
+        margin-top: -250px;
+        margin-left: -14px
+    }
+}
