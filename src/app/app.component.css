@@ -2,15 +2,61 @@
 .scroll img{
     width: 100%;
     margin-top: -200px;
-    margin-left: -15px
+    margin-left: -20px;
+    z-index: 4;
 }
-/* .top-ad{
-    background-color: black
-} */
+.scroll h3{
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    color:#fff
+}
+.text h1{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    z-index: 100;
+    color:#fff
+}
+.search{
+    position: absolute; 
+    top: 290px;
+    left: 20px;
+    width: 100%
+}
+.search input{
+    height: 45px;
+    border: 1px solid #5c3c81;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #5c3c81;
+    width: 80%;
+    float: center;
+    z-index: 5;   
+}
+.search button{
+    width: 50px;
+    margin-left: -45px;
+    height:40px;
+    z-index: 6;
+    border: 0;
+    background: none;
+    color:rgb(71, 28, 151);
+}
 .top-ad img{
+    margin-top: -25px;
     margin-left: -10%;
-    width: 90%;
+    width: 350px;
+    height: 300px;
 }
+.top-ad h5{
+    margin-top: 15px;
+    margin-left: -20px
+} 
 .featured{
    margin-top: 20px;
    padding-top: 15px;
@@ -40,8 +86,43 @@ square{
 }
 @media(max-width:1200px){
     .scroll img{
-        width: 111%;
-        margin-top: -250px;
+        width: 100%;
+        margin-top: -50px;
         margin-left: -14px
+    }
+    .featured{
+        margin-left:0;
+     }
+     .search{
+        position: absolute; 
+        top: 170px;
+        left: 20px;
+        width: 100%
+    }
+}
+@media(max-width:964px){
+    .scroll img{
+        width: 120%;
+        margin-top: -50px;
+        margin-left: -14px
+    }
+   .top-ad{
+        padding: 20px
+    }
+    .top-ad h5{
+        margin-top: 10px;
+        margin-left: 0px
+    }
+    .search{
+        position: absolute; 
+        top: 310px;
+        left: 20px;
+        width: 100%
+    }
+    .last{
+        display:none
+    }
+    .single{
+        border-right: 0;
     }
 }

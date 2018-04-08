@@ -8,11 +8,10 @@ img{
     height: 200px;
     
 }
-.extra{
+ .extra{
     position: relative;
     top: 120px;
     z-index: 3;
-    display: none;
     background-color: rgb(66, 107, 155);
     height: 120px;
     text-align: center;
@@ -22,17 +21,21 @@ img{
 .wrap:hover .extra{
     position: relative;
     top: 5px;
-    display: block;
     animation-name: jump;
     animation-duration: 1s
     
+}
+h6{
+    font-size: 13px;
+    color:#7a7a7a;
+    font-family: 'Karla', sans-serif
 }
 .wrap:hover h6{
     opacity: 0;
     animation-name: fade;
     animation-duration: 0.4s
     
-}
+} 
 
 @keyframes jump{
     0%{
